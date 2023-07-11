@@ -1,0 +1,117 @@
+.main-header{
+  background-color: var(--white);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  padding: 12px 0;
+  .row{
+    align-items: center;
+  }
+  &__logo{
+    width: 95px;
+    margin-right: clamp(10px, cqi(19), 19px);
+    img{
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+  &__slogan{
+    max-width: clamp(180px, cqi(200), 200px);
+    font-size: clamp(14px, cqi(16), 16px);
+    color: var(--green-text);
+    line-height: 1.438;
+    @media(min-width:992px){
+      margin-right: clamp(10px, cqi(80), 30px);
+    }
+    @media(min-width:1400px){
+      margin-right: 80px;
+    }
+  }
+  &__desc{
+    max-width: clamp(180px, cqi(200), 200px);
+    font-size: clamp(14px, cqi(16), 16px);
+    color: var(--dark);
+    line-height: 1.438;
+    @media(max-width:991px){
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  }
+  &__smi{
+    display: flex;
+    @media(min-width:992px){
+      margin-right: clamp(10px, cqi(30), 30px);
+      margin-left: auto;
+    }
+    @media(min-width:1400px){
+      margin-right: 108px;
+    }
+    a{
+      display: block;
+      &:not(:first-child){
+        margin-left: clamp(5px, cqi(13), 13px);
+      }
+    }
+    img{
+      display: block;
+      width: clamp(20px, cqi(31), 31px);
+      height: auto;
+    }
+  }
+  &__phone{
+    font-size: clamp(15px, cqi(18), 18px);
+    color: var(--green);
+    font-weight: bold;
+    line-height: 1.278;
+    text-decoration: none;
+    &:hover, &:active, &:focus{
+      text-decoration: underline;
+    }
+    @media(min-width:992px){
+      margin-right: clamp(10px, cqi(26), 26px);
+    }
+    @media(max-width:991px){
+      margin-top: 30px;
+    }
+  }
+  &__desktop{
+    @media(max-width:991px){
+      display: none;
+    }
+  }
+  &__mobile{
+    @media(min-width:992px){
+      display: none;
+    }
+  }
+  &__nav{
+    max-height: 0px;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s ease;
+    padding: 30px 0 60px;
+    position: fixed;
+    top: 71px;
+    left: 0;
+    right: 0;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    &.active{
+      opacity: 1;
+      visibility: visible;
+      max-height: 1000px;
+    }
+  }
+  .btn-white{
+    @media(max-width:991px){
+      margin-left: auto;
+    }
+  }
+}

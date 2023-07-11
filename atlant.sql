@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: localhost:8889
--- Время создания: Июл 11 2023 г., 19:54
+-- Время создания: Июл 11 2023 г., 20:11
 -- Версия сервера: 5.7.34
 -- Версия PHP: 7.4.21
 
@@ -209,7 +209,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (102, 'user_count', '1', 'no'),
 (103, 'widget_block', 'a:6:{i:2;a:1:{s:7:\"content\";s:19:\"<!-- wp:search /-->\";}i:3;a:1:{s:7:\"content\";s:154:\"<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Recent Posts</h2><!-- /wp:heading --><!-- wp:latest-posts /--></div><!-- /wp:group -->\";}i:4;a:1:{s:7:\"content\";s:227:\"<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Recent Comments</h2><!-- /wp:heading --><!-- wp:latest-comments {\"displayAvatar\":false,\"displayDate\":false,\"displayExcerpt\":false} /--></div><!-- /wp:group -->\";}i:5;a:1:{s:7:\"content\";s:146:\"<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Archives</h2><!-- /wp:heading --><!-- wp:archives /--></div><!-- /wp:group -->\";}i:6;a:1:{s:7:\"content\";s:150:\"<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Categories</h2><!-- /wp:heading --><!-- wp:categories /--></div><!-- /wp:group -->\";}s:12:\"_multiwidget\";i:1;}', 'yes'),
 (104, 'sidebars_widgets', 'a:2:{s:19:\"wp_inactive_widgets\";a:5:{i:0;s:7:\"block-2\";i:1;s:7:\"block-3\";i:2;s:7:\"block-4\";i:3;s:7:\"block-5\";i:4;s:7:\"block-6\";}s:13:\"array_version\";i:3;}', 'yes'),
-(105, 'cron', 'a:6:{i:1689106005;a:1:{s:34:\"wp_privacy_delete_old_export_files\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1689138405;a:5:{s:32:\"recovery_mode_clean_expired_keys\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:18:\"wp_https_detection\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1689138414;a:3:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:25:\"delete_expired_transients\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:21:\"wp_update_user_counts\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1689138416;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1689656805;a:1:{s:30:\"wp_site_health_scheduled_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"weekly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:604800;}}}s:7:\"version\";i:2;}', 'yes'),
+(105, 'cron', 'a:6:{i:1689109605;a:1:{s:34:\"wp_privacy_delete_old_export_files\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1689138405;a:5:{s:32:\"recovery_mode_clean_expired_keys\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:18:\"wp_https_detection\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1689138414;a:3:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:25:\"delete_expired_transients\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:21:\"wp_update_user_counts\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1689138416;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1689656805;a:1:{s:30:\"wp_site_health_scheduled_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"weekly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:604800;}}}s:7:\"version\";i:2;}', 'yes'),
 (106, 'widget_pages', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (107, 'widget_calendar', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (108, 'widget_archives', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
@@ -317,7 +317,7 @@ CREATE TABLE `wp_postmeta` (
 INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (1, 2, '_wp_page_template', 'templates/page-home.php'),
 (2, 3, '_wp_page_template', 'default'),
-(3, 2, '_edit_lock', '1689102153:1'),
+(3, 2, '_edit_lock', '1689105972:1'),
 (4, 2, '_edit_last', '1'),
 (5, 6, '_edit_last', '1'),
 (6, 6, '_edit_lock', '1689098240:1'),
@@ -336,7 +336,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (19, 20, '_wp_attached_file', '2023/07/logo-1.png'),
 (20, 20, '_wp_attachment_metadata', 'a:6:{s:5:\"width\";i:476;s:6:\"height\";i:237;s:4:\"file\";s:18:\"2023/07/logo-1.png\";s:8:\"filesize\";i:41488;s:5:\"sizes\";a:2:{s:6:\"medium\";a:5:{s:4:\"file\";s:18:\"logo-1-300x149.png\";s:5:\"width\";i:300;s:6:\"height\";i:149;s:9:\"mime-type\";s:9:\"image/png\";s:8:\"filesize\";i:20812;}s:9:\"thumbnail\";a:5:{s:4:\"file\";s:18:\"logo-1-150x150.png\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:9:\"image/png\";s:8:\"filesize\";i:12360;}}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}'),
 (21, 21, '_edit_last', '1'),
-(22, 21, '_edit_lock', '1689102079:1'),
+(22, 21, '_edit_lock', '1689105646:1'),
 (23, 2, 'banner-title', 'Сверхпрочные пластиковые погреба “Атлант”'),
 (24, 2, '_banner-title', 'field_64ad9be219c71'),
 (25, 2, 'banner-slogan', 'Хранение вкусных заготовок и полезных продуктов круглый год'),
@@ -406,7 +406,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (89, 2, '_adv-top-list_2_text', 'field_64ada05909756'),
 (90, 2, 'adv-top-list', '3'),
 (91, 2, '_adv-top-list', 'field_64ada01609754'),
-(92, 2, 'adv-bot-title', 'не запотевают и не промерзают'),
+(92, 2, 'adv-bot-title', 'В погребах “Атлант” стены <span>не запотевают и не промерзают</span>'),
 (93, 2, '_adv-bot-title', 'field_64ada07f09757'),
 (94, 2, 'adv-bot-subtitle', 'Обеспечена хорошая вентиляция и регулируемая конвекция'),
 (95, 2, '_adv-bot-subtitle', 'field_64ada0a209758'),
@@ -1182,7 +1182,153 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (864, 70, 'models_5_image', '68'),
 (865, 70, '_models_5_image', 'field_64ada6da62ae7'),
 (866, 70, 'models_6_image', '69'),
-(867, 70, '_models_6_image', 'field_64ada6da62ae7');
+(867, 70, '_models_6_image', 'field_64ada6da62ae7'),
+(868, 71, 'banner-title', 'Сверхпрочные пластиковые погреба “Атлант”'),
+(869, 71, '_banner-title', 'field_64ad9be219c71'),
+(870, 71, 'banner-slogan', 'Хранение вкусных заготовок и полезных продуктов круглый год'),
+(871, 71, '_banner-slogan', 'field_64ad9c7c19c73'),
+(872, 71, 'banner-descriptor', 'Изготовим погреб любых размеров <b> за 7 дней</b>'),
+(873, 71, '_banner-descriptor', 'field_64ad9ca719c74'),
+(874, 71, 'banner-list_0_title', 'Без всплытия, трещин и вздутия пола'),
+(875, 71, '_banner-list_0_title', 'field_64ad9d1619c76'),
+(876, 71, 'banner-list_0_description', 'Долговечность 300 лет - погреб на 5-7 поколений семьи'),
+(877, 71, '_banner-list_0_description', 'field_64ad9d4b19c77'),
+(878, 71, 'banner-list_1_title', 'Стабильная температура и влажность'),
+(879, 71, '_banner-list_1_title', 'field_64ad9d1619c76'),
+(880, 71, 'banner-list_1_description', 'Овощи не портятся, банки не вздуваются'),
+(881, 71, '_banner-list_1_description', 'field_64ad9d4b19c77'),
+(882, 71, 'banner-list_2_title', 'Комфортно пользоваться'),
+(883, 71, '_banner-list_2_title', 'field_64ad9d1619c76'),
+(884, 71, 'banner-list_2_description', 'Широкие люки спуска, потолок любой высоты, хоть 2,3 м'),
+(885, 71, '_banner-list_2_description', 'field_64ad9d4b19c77'),
+(886, 71, 'banner-list_3_title', '100% герметичность'),
+(887, 71, '_banner-list_3_title', 'field_64ad9d1619c76'),
+(888, 71, 'banner-list_3_description', 'Вода и грызуны не попадают внутрь'),
+(889, 71, '_banner-list_3_description', 'field_64ad9d4b19c77'),
+(890, 71, 'banner-list', '4'),
+(891, 71, '_banner-list', 'field_64ad9cf419c75'),
+(892, 71, 'adv-top-list_0_image', '47'),
+(893, 71, '_adv-top-list_0_image', 'field_64ada03309755'),
+(894, 71, 'adv-top-list_0_text', 'Овощи и фрукты <span>долго хранятся - не плесневеют, не гниют, не сушатся</span>'),
+(895, 71, '_adv-top-list_0_text', 'field_64ada05909756'),
+(896, 71, 'adv-top-list_1_image', '45'),
+(897, 71, '_adv-top-list_1_image', 'field_64ada03309755'),
+(898, 71, 'adv-top-list_1_text', '<span>В погребе приятный запах,</span> а не запах сырости и влаги'),
+(899, 71, '_adv-top-list_1_text', 'field_64ada05909756'),
+(900, 71, 'adv-top-list_2_image', '46'),
+(901, 71, '_adv-top-list_2_image', 'field_64ada03309755'),
+(902, 71, 'adv-top-list_2_text', 'На стенках и потолке <span>нет конденсата,</span> за заготовками приятно заходить, ничего не капает'),
+(903, 71, '_adv-top-list_2_text', 'field_64ada05909756'),
+(904, 71, 'adv-top-list', '3'),
+(905, 71, '_adv-top-list', 'field_64ada01609754'),
+(906, 71, 'adv-bot-title', 'В погребах “Атлант” стены <span>не запотевают и не промерзают</span>'),
+(907, 71, '_adv-bot-title', 'field_64ada07f09757'),
+(908, 71, 'adv-bot-subtitle', 'Обеспечена хорошая вентиляция и регулируемая конвекция'),
+(909, 71, '_adv-bot-subtitle', 'field_64ada0a209758'),
+(910, 71, 'adv-bot-list-left', '2'),
+(911, 71, '_adv-bot-list-left', 'field_64ada0f109759'),
+(912, 71, 'adv-bot-list-right', '3'),
+(913, 71, '_adv-bot-list-right', 'field_64ada1410975c'),
+(914, 71, 'adv-bot-list-left_0_title', 'Утепленная горловина'),
+(915, 71, '_adv-bot-list-left_0_title', 'field_64ada10e0975a'),
+(916, 71, 'adv-bot-list-left_0_text', 'Защита от конденсата при температурных перепадах снаружи'),
+(917, 71, '_adv-bot-list-left_0_text', 'field_64ada1290975b'),
+(918, 71, 'adv-bot-list-left_1_title', 'Автоматическая и принудительная вентиляция'),
+(919, 71, '_adv-bot-list-left_1_title', 'field_64ada10e0975a'),
+(920, 71, 'adv-bot-list-left_1_text', 'Включается автоматически, регулируя микроклимат и устраняя неприятные запахи'),
+(921, 71, '_adv-bot-list-left_1_text', 'field_64ada1290975b'),
+(922, 71, 'adv-bot-list-right_0_title', 'Приточно-вытяжная вентиляция'),
+(923, 71, '_adv-bot-list-right_0_title', 'field_64ada1410975d'),
+(924, 71, 'adv-bot-list-right_0_text', 'Диаметр 110 мм'),
+(925, 71, '_adv-bot-list-right_0_text', 'field_64ada1410975e'),
+(926, 71, 'adv-bot-list-right_1_title', 'Утепление стен погреба при монтаже'),
+(927, 71, '_adv-bot-list-right_1_title', 'field_64ada1410975d'),
+(928, 71, 'adv-bot-list-right_1_text', 'Исключает запотевание стен'),
+(929, 71, '_adv-bot-list-right_1_text', 'field_64ada1410975e'),
+(930, 71, 'adv-bot-list-right_2_title', 'Удобный контроль показателей внутри'),
+(931, 71, '_adv-bot-list-right_2_title', 'field_64ada1410975d'),
+(932, 71, 'adv-bot-list-right_2_text', 'Метеостанция, гигрометр'),
+(933, 71, '_adv-bot-list-right_2_text', 'field_64ada1410975e'),
+(934, 71, 'help-title', 'Поможем подобрать погреб для вашего участка'),
+(935, 71, '_help-title', 'field_64ada29858bd5'),
+(936, 71, 'help-description', 'Расчет стоимости <span>за 2 минуты </span> - ответьте всего на <span>5 вопросов</span>'),
+(937, 71, '_help-description', 'field_64ada2d558bd6'),
+(938, 71, 'models-title', 'Модельный ряд погребов “Атлант”'),
+(939, 71, '_models-title', 'field_64ada34658bd7'),
+(940, 71, 'models-subtitle', 'Выбранная модель может быть изготовлена в любых размерах'),
+(941, 71, '_models-subtitle', 'field_64ada37358bd8'),
+(942, 71, 'models_0_name', 'Модель 1'),
+(943, 71, '_models_0_name', 'field_64ada3b858bda'),
+(944, 71, 'models_0_description', 'Прямоугольный погреб с верхним входом'),
+(945, 71, '_models_0_description', 'field_64ada40e58bdb'),
+(946, 71, 'models_0_old-price', '117720'),
+(947, 71, '_models_0_old-price', 'field_64ada47358bdc'),
+(948, 71, 'models_0_price', '98100'),
+(949, 71, '_models_0_price', 'field_64ada49358bdd'),
+(950, 71, 'models_1_name', 'Модель 2'),
+(951, 71, '_models_1_name', 'field_64ada3b858bda'),
+(952, 71, 'models_1_description', 'Прямоугольный погреб с верхним входом'),
+(953, 71, '_models_1_description', 'field_64ada40e58bdb'),
+(954, 71, 'models_1_old-price', '117720'),
+(955, 71, '_models_1_old-price', 'field_64ada47358bdc'),
+(956, 71, 'models_1_price', '98100'),
+(957, 71, '_models_1_price', 'field_64ada49358bdd'),
+(958, 71, 'models_2_name', 'Модель 3'),
+(959, 71, '_models_2_name', 'field_64ada3b858bda'),
+(960, 71, 'models_2_description', 'Прямоугольный погреб с верхним входом'),
+(961, 71, '_models_2_description', 'field_64ada40e58bdb'),
+(962, 71, 'models_2_old-price', '117720'),
+(963, 71, '_models_2_old-price', 'field_64ada47358bdc'),
+(964, 71, 'models_2_price', '98100'),
+(965, 71, '_models_2_price', 'field_64ada49358bdd'),
+(966, 71, 'models_3_name', 'Модель 4'),
+(967, 71, '_models_3_name', 'field_64ada3b858bda'),
+(968, 71, 'models_3_description', 'Прямоугольный погреб с верхним входом'),
+(969, 71, '_models_3_description', 'field_64ada40e58bdb'),
+(970, 71, 'models_3_old-price', '117720'),
+(971, 71, '_models_3_old-price', 'field_64ada47358bdc'),
+(972, 71, 'models_3_price', '98100'),
+(973, 71, '_models_3_price', 'field_64ada49358bdd'),
+(974, 71, 'models_4_name', 'Модель 5'),
+(975, 71, '_models_4_name', 'field_64ada3b858bda'),
+(976, 71, 'models_4_description', 'Прямоугольный погреб с верхним входом'),
+(977, 71, '_models_4_description', 'field_64ada40e58bdb'),
+(978, 71, 'models_4_old-price', '117720'),
+(979, 71, '_models_4_old-price', 'field_64ada47358bdc'),
+(980, 71, 'models_4_price', '98100'),
+(981, 71, '_models_4_price', 'field_64ada49358bdd'),
+(982, 71, 'models_5_name', 'Модель 6'),
+(983, 71, '_models_5_name', 'field_64ada3b858bda'),
+(984, 71, 'models_5_description', 'Прямоугольный погреб с верхним входом'),
+(985, 71, '_models_5_description', 'field_64ada40e58bdb'),
+(986, 71, 'models_5_old-price', '117720'),
+(987, 71, '_models_5_old-price', 'field_64ada47358bdc'),
+(988, 71, 'models_5_price', '98100'),
+(989, 71, '_models_5_price', 'field_64ada49358bdd'),
+(990, 71, 'models_6_name', 'Модель 7'),
+(991, 71, '_models_6_name', 'field_64ada3b858bda'),
+(992, 71, 'models_6_description', 'Прямоугольный погреб с верхним входом'),
+(993, 71, '_models_6_description', 'field_64ada40e58bdb'),
+(994, 71, 'models_6_old-price', '117720'),
+(995, 71, '_models_6_old-price', 'field_64ada47358bdc'),
+(996, 71, 'models_6_price', '98100'),
+(997, 71, '_models_6_price', 'field_64ada49358bdd'),
+(998, 71, 'models', '7'),
+(999, 71, '_models', 'field_64ada39e58bd9'),
+(1000, 71, 'models_0_image', '63'),
+(1001, 71, '_models_0_image', 'field_64ada6da62ae7'),
+(1002, 71, 'models_1_image', '64'),
+(1003, 71, '_models_1_image', 'field_64ada6da62ae7'),
+(1004, 71, 'models_2_image', '65'),
+(1005, 71, '_models_2_image', 'field_64ada6da62ae7'),
+(1006, 71, 'models_3_image', '66'),
+(1007, 71, '_models_3_image', 'field_64ada6da62ae7'),
+(1008, 71, 'models_4_image', '67'),
+(1009, 71, '_models_4_image', 'field_64ada6da62ae7'),
+(1010, 71, 'models_5_image', '68'),
+(1011, 71, '_models_5_image', 'field_64ada6da62ae7'),
+(1012, 71, 'models_6_image', '69'),
+(1013, 71, '_models_6_image', 'field_64ada6da62ae7');
 
 -- --------------------------------------------------------
 
@@ -1222,7 +1368,7 @@ CREATE TABLE `wp_posts` (
 
 INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `comment_status`, `ping_status`, `post_password`, `post_name`, `to_ping`, `pinged`, `post_modified`, `post_modified_gmt`, `post_content_filtered`, `post_parent`, `guid`, `menu_order`, `post_type`, `post_mime_type`, `comment_count`) VALUES
 (1, 1, '2023-07-10 05:06:45', '2023-07-10 05:06:45', '<!-- wp:paragraph -->\n<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>\n<!-- /wp:paragraph -->', 'Hello world!', '', 'publish', 'open', 'open', '', 'hello-world', '', '', '2023-07-10 05:06:45', '2023-07-10 05:06:45', '', 0, 'http://localhost:8888/atlant/?p=1', 0, 'post', '', 1),
-(2, 1, '2023-07-10 05:06:45', '2023-07-10 05:06:45', 'Hello world', 'Home page', '', 'publish', 'closed', 'open', '', 'sample-page', '', '', '2023-07-11 19:02:32', '2023-07-11 19:02:32', '', 0, 'http://localhost:8888/atlant/?page_id=2', 0, 'page', '', 0),
+(2, 1, '2023-07-10 05:06:45', '2023-07-10 05:06:45', 'Hello world', 'Home page', '', 'publish', 'closed', 'open', '', 'sample-page', '', '', '2023-07-11 20:06:12', '2023-07-11 20:06:12', '', 0, 'http://localhost:8888/atlant/?page_id=2', 0, 'page', '', 0),
 (3, 1, '2023-07-10 05:06:45', '2023-07-10 05:06:45', '<!-- wp:heading --><h2>Who we are</h2><!-- /wp:heading --><!-- wp:paragraph --><p><strong class=\"privacy-policy-tutorial\">Suggested text: </strong>Our website address is: http://localhost:8888/atlant.</p><!-- /wp:paragraph --><!-- wp:heading --><h2>Comments</h2><!-- /wp:heading --><!-- wp:paragraph --><p><strong class=\"privacy-policy-tutorial\">Suggested text: </strong>When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor&#8217;s IP address and browser user agent string to help spam detection.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service privacy policy is available here: https://automattic.com/privacy/. After approval of your comment, your profile picture is visible to the public in the context of your comment.</p><!-- /wp:paragraph --><!-- wp:heading --><h2>Media</h2><!-- /wp:heading --><!-- wp:paragraph --><p><strong class=\"privacy-policy-tutorial\">Suggested text: </strong>If you upload images to the website, you should avoid uploading images with embedded location data (EXIF GPS) included. Visitors to the website can download and extract any location data from images on the website.</p><!-- /wp:paragraph --><!-- wp:heading --><h2>Cookies</h2><!-- /wp:heading --><!-- wp:paragraph --><p><strong class=\"privacy-policy-tutorial\">Suggested text: </strong>If you leave a comment on our site you may opt-in to saving your name, email address and website in cookies. These are for your convenience so that you do not have to fill in your details again when you leave another comment. These cookies will last for one year.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>If you visit our login page, we will set a temporary cookie to determine if your browser accepts cookies. This cookie contains no personal data and is discarded when you close your browser.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>When you log in, we will also set up several cookies to save your login information and your screen display choices. Login cookies last for two days, and screen options cookies last for a year. If you select &quot;Remember Me&quot;, your login will persist for two weeks. If you log out of your account, the login cookies will be removed.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>If you edit or publish an article, an additional cookie will be saved in your browser. This cookie includes no personal data and simply indicates the post ID of the article you just edited. It expires after 1 day.</p><!-- /wp:paragraph --><!-- wp:heading --><h2>Embedded content from other websites</h2><!-- /wp:heading --><!-- wp:paragraph --><p><strong class=\"privacy-policy-tutorial\">Suggested text: </strong>Articles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website.</p><!-- /wp:paragraph --><!-- wp:heading --><h2>Who we share your data with</h2><!-- /wp:heading --><!-- wp:paragraph --><p><strong class=\"privacy-policy-tutorial\">Suggested text: </strong>If you request a password reset, your IP address will be included in the reset email.</p><!-- /wp:paragraph --><!-- wp:heading --><h2>How long we retain your data</h2><!-- /wp:heading --><!-- wp:paragraph --><p><strong class=\"privacy-policy-tutorial\">Suggested text: </strong>If you leave a comment, the comment and its metadata are retained indefinitely. This is so we can recognize and approve any follow-up comments automatically instead of holding them in a moderation queue.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>For users that register on our website (if any), we also store the personal information they provide in their user profile. All users can see, edit, or delete their personal information at any time (except they cannot change their username). Website administrators can also see and edit that information.</p><!-- /wp:paragraph --><!-- wp:heading --><h2>What rights you have over your data</h2><!-- /wp:heading --><!-- wp:paragraph --><p><strong class=\"privacy-policy-tutorial\">Suggested text: </strong>If you have an account on this site, or have left comments, you can request to receive an exported file of the personal data we hold about you, including any data you have provided to us. You can also request that we erase any personal data we hold about you. This does not include any data we are obliged to keep for administrative, legal, or security purposes.</p><!-- /wp:paragraph --><!-- wp:heading --><h2>Where your data is sent</h2><!-- /wp:heading --><!-- wp:paragraph --><p><strong class=\"privacy-policy-tutorial\">Suggested text: </strong>Visitor comments may be checked through an automated spam detection service.</p><!-- /wp:paragraph -->', 'Privacy Policy', '', 'draft', 'closed', 'open', '', 'privacy-policy', '', '', '2023-07-10 05:06:45', '2023-07-10 05:06:45', '', 0, 'http://localhost:8888/atlant/?page_id=3', 0, 'page', '', 0),
 (4, 1, '2023-07-10 05:06:56', '0000-00-00 00:00:00', '', 'Auto Draft', '', 'auto-draft', 'open', 'open', '', '', '', '', '2023-07-10 05:06:56', '0000-00-00 00:00:00', '', 0, 'http://localhost:8888/atlant/?p=4', 0, 'post', '', 0),
 (5, 1, '2023-07-10 05:11:16', '2023-07-10 05:11:16', 'Hello world', 'Home page', '', 'inherit', 'closed', 'closed', '', '2-revision-v1', '', '', '2023-07-10 05:11:16', '2023-07-10 05:11:16', '', 2, 'http://localhost:8888/atlant/?p=5', 0, 'revision', '', 0),
@@ -1290,7 +1436,8 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (67, 1, '2023-07-11 19:01:57', '2023-07-11 19:01:57', '', 'model-05', '', 'inherit', 'open', 'closed', '', 'model-05', '', '', '2023-07-11 19:01:57', '2023-07-11 19:01:57', '', 2, 'http://localhost:8888/atlant/wp-content/uploads/2023/07/model-05.png', 0, 'attachment', 'image/png', 0),
 (68, 1, '2023-07-11 19:01:58', '2023-07-11 19:01:58', '', 'model-06', '', 'inherit', 'open', 'closed', '', 'model-06', '', '', '2023-07-11 19:01:58', '2023-07-11 19:01:58', '', 2, 'http://localhost:8888/atlant/wp-content/uploads/2023/07/model-06.png', 0, 'attachment', 'image/png', 0),
 (69, 1, '2023-07-11 19:01:58', '2023-07-11 19:01:58', '', 'model-07', '', 'inherit', 'open', 'closed', '', 'model-07', '', '', '2023-07-11 19:01:58', '2023-07-11 19:01:58', '', 2, 'http://localhost:8888/atlant/wp-content/uploads/2023/07/model-07.png', 0, 'attachment', 'image/png', 0),
-(70, 1, '2023-07-11 19:02:32', '2023-07-11 19:02:32', 'Hello world', 'Home page', '', 'inherit', 'closed', 'closed', '', '2-revision-v1', '', '', '2023-07-11 19:02:32', '2023-07-11 19:02:32', '', 2, 'http://localhost:8888/atlant/?p=70', 0, 'revision', '', 0);
+(70, 1, '2023-07-11 19:02:32', '2023-07-11 19:02:32', 'Hello world', 'Home page', '', 'inherit', 'closed', 'closed', '', '2-revision-v1', '', '', '2023-07-11 19:02:32', '2023-07-11 19:02:32', '', 2, 'http://localhost:8888/atlant/?p=70', 0, 'revision', '', 0),
+(71, 1, '2023-07-11 20:06:12', '2023-07-11 20:06:12', 'Hello world', 'Home page', '', 'inherit', 'closed', 'closed', '', '2-revision-v1', '', '', '2023-07-11 20:06:12', '2023-07-11 20:06:12', '', 2, 'http://localhost:8888/atlant/?p=71', 0, 'revision', '', 0);
 
 -- --------------------------------------------------------
 
@@ -1560,19 +1707,19 @@ ALTER TABLE `wp_links`
 -- AUTO_INCREMENT для таблицы `wp_options`
 --
 ALTER TABLE `wp_options`
-  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=240;
+  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=241;
 
 --
 -- AUTO_INCREMENT для таблицы `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=868;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1014;
 
 --
 -- AUTO_INCREMENT для таблицы `wp_posts`
 --
 ALTER TABLE `wp_posts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=71;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=72;
 
 --
 -- AUTO_INCREMENT для таблицы `wp_termmeta`

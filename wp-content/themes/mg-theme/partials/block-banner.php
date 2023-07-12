@@ -10,11 +10,13 @@
         </div>
       </div>
       <div class="banner__right">
-        <img class="banner__pogreb" src="<?php echo IMG; ?>/banner-pogreb.png" />
-        <div class="banner__price">
-          <img class="banner__price__bg" src="<?php echo IMG; ?>/yarlyk.svg" />
-          <img class="banner__price__icon" src="<?php echo IMG; ?>/ruble.svg" />
-          <span class="banner__price__text">от <br> 98 100 р.</span>
+        <div class="banner__center">
+          <img class="banner__pogreb" src="<?php echo IMG; ?>/banner-pogreb.png" />
+          <div class="banner__price">
+            <img class="banner__price__bg" src="<?php echo IMG; ?>/yarlyk.svg" />
+            <img class="banner__price__icon" src="<?php echo IMG; ?>/ruble.svg" />
+            <span class="banner__price__text">от <br> 98 100 р.</span>
+          </div>
         </div>
         <?php if( have_rows('banner-list') ): ?>
         <ul class="banner__list">

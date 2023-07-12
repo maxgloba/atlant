@@ -3,7 +3,6 @@
   padding-top: clamp(50px, cqi(125), 125px);
   padding-bottom: clamp(50px, cqi(190), 190px);
   .row{
-    align-items: center;
     @media(max-width:991px){
       display: block;
     }
@@ -13,31 +12,37 @@
   }
   &__left{
     @media(min-width:992px){
-      width: 45%;
+      width: 400px;
+      padding-top: 118px;
+      z-index: 3;
+    }
+    @media(min-width:1200px){
+      width: 500px;
     }
   }
   &__right{
     @media(min-width:992px){
-      width: 55%;
+      width: 274px;
     }
   }
   h1{
     font-size: clamp(34px, cqi(50), 50px);
     color: var(--green);
     line-height: 1.28;
-    margin-bottom: clamp(15px, cqi(19), 19px);
+    margin-bottom: clamp(15px, cqi(33), 33px);
     font-weight: 900;
   }
   h2{
     font-size: clamp(20px, cqi(32), 32px);
     color: var(--dark);
     line-height: 1.281;
-    margin-bottom: clamp(30px, cqi(64), 64px);
+    margin-bottom: clamp(30px, cqi(65), 65px);
+    font-weight: 400;
   }
   &__list{
     border-radius: 15px;
     background-color: var(--mint);
-    padding: 41px 31px 41px 52px;
+    padding: 36px 30px 44px 52px;
     margin-left: auto;
     position: relative;
     z-index: 2;
@@ -55,6 +60,7 @@
       color: var(--dark);
       font-weight: 400;
       display: block;
+      margin-top: 11px;
     }
     &:before{
       content:"";
@@ -67,10 +73,10 @@
       border-radius: 50%;
     }
     &:not(:first-child){
-      margin-top: 25px;
+      margin-top: 29px;
     }
   }
-  &__pogreb{
+  &__center{
     @media(max-width:991px){
       margin-top: 30px;
       display: block;
@@ -80,8 +86,20 @@
       position: absolute;
       z-index: 1;
       top: 50%;
-      transform: translate(-5%, -45%);
-      max-width: 85%;
+      right: 100%;
+      transform: translateX(12%) translateY(-50%);
+      margin-top: 30px;
+    }
+  }
+  &__pogreb{
+    @media(min-width:992px){
+      max-width: 600px;
+    }
+    @media(min-width:1300px){
+      max-width: 700px;
+    }
+    @media(min-width:1400px){
+      max-width: 904px;
     }
   }
   &__descriptor{
@@ -97,7 +115,6 @@
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 12px 15px 12px 30px;
-
     b{
       color: var(--green);
     }

@@ -1,7 +1,7 @@
 <section class="models">
   <div class="container">
-    <h2><?php the_field('models-title'); ?></h2>
-    <h3><?php the_field('models-subtitle'); ?></h3>
+    <h2 class="wow fadeInLeft"><?php the_field('models-title'); ?></h2>
+    <h3 class="wow fadeInLeft" data-wow-delay=".1s"><?php the_field('models-subtitle'); ?></h3>
     <?php if( have_rows('models') ): ?>
     <div class="models__list">
       <?php while( have_rows('models') ) : the_row(); ?>
@@ -18,7 +18,7 @@
           <a href="#" class="btn btn__more">Подробнее</a>
         </div>
       <?php endwhile; ?>
-      <div class="models__item models__item-last">
+      <div class="models__item models__item-last wow bounceInRight">
         <div class="models__personal">
           <svg class="models__personal__bg" width="700" height="700" viewBox="0 0 700 700" fill="none" type="image/svg+xml" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
             <path id="r1" d="M692 241.5C692 448.471 583.972 831.49 458.5 646.5C263.5 359 21.5364 512.5 17.9999 414C4.5 38 209.972 0.5 433.5 0.5C656 22.5 662 81 692 241.5Z" fill="#d1ddcf">

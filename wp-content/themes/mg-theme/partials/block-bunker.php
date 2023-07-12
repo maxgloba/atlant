@@ -1,9 +1,9 @@
 <section class="bunker">
   <div class="container">
     <div class="bunker__left">
-      <h2>Первые погреба с надежностью уровня “бункер”</h2>
-      <h3>Длительное хранение урожая и комфорт использования погреба </h3>
-      <img class="bunker__ded" src="<?php echo IMG; ?>/ded.png" />
+      <h2 class="wow fadeInLeft">Первые погреба с надежностью уровня “бункер”</h2>
+      <h3 class="wow fadeInLeft" data-wow-delay=".1s">Длительное хранение урожая и комфорт использования погреба </h3>
+      <img class="bunker__ded wow fadeInRight" src="<?php echo IMG; ?>/ded.png" />
       <div class="bunker__list">
         <div class="bunker__item">
           <button class="bunker__item__btn">

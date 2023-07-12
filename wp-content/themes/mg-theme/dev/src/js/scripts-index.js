@@ -1,6 +1,9 @@
 //= partials/ajaxRequest.js
 //= partials/header.js
 //= modules/tiny-slider.js
+//= modules/wow.js
+
+new WOW().init();
 
 (function(){
 

@@ -1,8 +1,8 @@
 <section class="consultation">
   <div class="container">
     <div class="consultation__titles">
-      <h2>Проконсультируем и поможем выбрать идеальную модель погреба</h2>
-      <h3>
+      <h2 class="wow fadeInLeft">Проконсультируем и поможем выбрать идеальную модель погреба</h2>
+      <h3 class="wow fadeInLeft" data-wow-delay=".1s">
         Вы всегда можете приехать к нам на склад и посмотреть наши погреба.
         <br><br>
         Выезд на склад - по предварительной записи

@@ -1,5 +1,5 @@
 <section class="look">
-  <div class="look__box">
+  <div class="look__box wow fadeInRight">
     <h2>Как выглядят погреба <br> “Атлант” изнутри </h2>
     <div class="look__slider-wrap">
       <div class="look__slider">

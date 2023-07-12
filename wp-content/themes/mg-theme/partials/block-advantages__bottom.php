@@ -17,7 +17,7 @@
           <li class="advantages__items-left-0<?php echo $i; ?>">
             <?php the_sub_field('title'); ?>
             <span><?php the_sub_field('text'); ?></span>
-            <img src="<?php echo IMG; ?>/left-arrow-01.png" />
+            <img src="<?php echo IMG; ?>/left-arrow-0<?php echo $i; ?>.png" />
           </li>
         <?php endwhile; ?>
       </ul>
@@ -26,10 +26,10 @@
       <?php if( have_rows('adv-bot-list-right') ): ?>
       <ul class="advantages__items advantages__items-right">
         <?php $i=0; while( have_rows('adv-bot-list-right') ) : the_row(); $i++; ?>
-          <li class="advantages__items-left-0<?php echo $i; ?>">
+          <li class="advantages__items-right-0<?php echo $i; ?>">
             <?php the_sub_field('title'); ?>
             <span><?php the_sub_field('text'); ?></span>
-            <img src="<?php echo IMG; ?>/left-arrow-01.png" />
+            <img src="<?php echo IMG; ?>/right-arrow-0<?php echo $i; ?>.png" />
           </li>
         <?php endwhile; ?>
       </ul>

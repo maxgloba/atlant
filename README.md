@@ -1,7 +1,11 @@
 <h1 align="center">Hi 👋, I'm Max Globa</h1>
 <h3 align="center">Web Developer Node.js, Vue.js, Nuxt.js, WordPress</h3>
-- 🔭 I’m currently working on "Atlant Pogreb" you can check it at domain [https://maxgloba.github.io/atlant/](https://maxgloba.github.io/atlant/)
-- To run dev mode you need go to [Dev Folder](https://github.com/maxgloba/atlant/tree/main/wp-content/themes/mg-theme/dev) and run terminal commands *npm install* -> *gulp*
+<p align="left">
+  - 🔭 I’m currently working on "Atlant Pogreb" you can check it at domain [https://maxgloba.github.io/atlant/](https://maxgloba.github.io/atlant/)
+</p>
+<p align="left">
+  - To run dev mode you need go to [Dev Folder](https://github.com/maxgloba/atlant/tree/main/wp-content/themes/mg-theme/dev) and run terminal commands *npm install* -> *gulp*
+</p>
 <h3 align="left">Connect with me:</h3>
 <p align="left">
   <a href="https://t.me/maxgloba_dev" target="_blank" rel="noreferrer">

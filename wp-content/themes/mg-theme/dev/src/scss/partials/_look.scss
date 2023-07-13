@@ -179,9 +179,11 @@
     margin-top: 51px;
     background: var(--white);
     border-radius: 10px;
+    max-width: 580px;
     @media(min-width:768px){
       display: flex;
       align-items: center;
+      justify-content: space-between;
     }
     span{
       padding: 0 36px;

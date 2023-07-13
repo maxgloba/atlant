@@ -1,12 +1,8 @@
 <section class="consultation">
   <div class="container">
     <div class="consultation__titles">
-      <h2 class="wow fadeInLeft">Проконсультируем и поможем выбрать идеальную модель погреба</h2>
-      <h3 class="wow fadeInLeft" data-wow-delay=".1s">
-        Вы всегда можете приехать к нам на склад и посмотреть наши погреба.
-        <br><br>
-        Выезд на склад - по предварительной записи
-      </h3>
+      <h2 class="wow fadeInLeft"><?php the_field('consultation-title'); ?></h2>
+      <h3 class="wow fadeInLeft" data-wow-delay=".1s"><?php the_field('consultation-text'); ?></h3>
     </div>
     <div class="form__wrap">
       <svg class="form__bg" width="700" height="700" viewBox="0 0 700 700" fill="none" type="image/svg+xml" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">

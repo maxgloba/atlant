@@ -2,55 +2,47 @@
   <div class="container">
     <div class="main-footer__titles">
       <a class="main-footer__logo" href="<?php echo home_url(); ?>">
-        <img src="<?php echo IMG; ?>/logo.png">
+        <img src="<?php the_field('logo', 'option'); ?>">
       </a>
-      <div class="main-footer__slogan">Производитель погребов <br> для дач и домов</div>
+      <div class="main-footer__slogan"><?php the_field('slogan', 'option'); ?></div>
     </div>
+
+    <?php if( have_rows('footer_menu_1', 'option') ): ?>
     <ul class="main-footer__info">
-      <li>
-        Изготовление
-        <span>от 7 дней</span>
-      </li>
-      <li>
-        Доставка
-        <span>по РФ</span>
-      </li>
-      <li>
-        Монтаж на участке
-        <span>1 день</span>
-      </li>
+      <?php while( have_rows('footer_menu_1', 'option') ) : the_row(); ?>
+        <li><?php the_sub_field('text'); ?></li>
+      <?php endwhile; ?>
     </ul>
+    <?php endif; ?>
+
+    <?php if( have_rows('footer_menu_2', 'option') ): ?>
     <ul class="main-footer__info">
-      <li>
-        Адрес производства:
-        <span>Московская область, г. Лобня, ул. Лейтенанта Бойко 95 Б</span>
-      </li>
-      <li>
-        Адрес офиса:
-        <span>127411, г. Москва, Дмитровское шоссе 157, строение 11</span>
-      </li>
+      <?php while( have_rows('footer_menu_2', 'option') ) : the_row(); ?>
+        <li><?php the_sub_field('text'); ?></li>
+      <?php endwhile; ?>
     </ul>
+    <?php endif; ?>
+
     <ul class="main-footer__info">
-      <li>
-        Часы работы:
-        <span>
-          Рабочие дни: с 9:00 до 18:00 <br>
-          Выходные дни: с 10:00 до 17:00
-        </span>
-      </li>
+
+      <?php if( have_rows('footer_menu_3', 'option') ): while( have_rows('footer_menu_3', 'option') ) : the_row(); ?>
+        <li><?php the_sub_field('text'); ?></li>
+      <?php endwhile; endif; ?>
+
+      <?php if( have_rows('smi', 'option') ): ?>
       <li class="main-footer__smi">
-        <a href="#"><img src="<?php echo IMG; ?>/youtube.svg" /></a>
-        <a href="#"><img src="<?php echo IMG; ?>/telegram.svg" /></a>
-        <a href="#"><img src="<?php echo IMG; ?>/vk.svg" /></a>
-        <a href="#"><img src="<?php echo IMG; ?>/instagram.svg" /></a>
-        <a href="#"><img src="<?php echo IMG; ?>/whatsapp.svg" /></a>
+        <?php while( have_rows('smi', 'option') ) : the_row(); ?>
+          <a href="<?php the_sub_field('link') ?>"><img src="<?php the_sub_field('icon') ?>" /></a>
+        <?php endwhile; ?>
       </li>
+      <?php endif; ?>
     </ul>
+
     <div class="main-footer__info">
-      <a class="main-footer__phone" href="tel:+74958591970">+7(495)859-19-70</a>
+      <a class="main-footer__phone" href="tel:<?php the_field('phone', 'option'); ?>"><?php the_field('phone', 'option'); ?></a>
       <button class="btn btn-white getCall">Заказать звонок</button>
     </div>
   </div>
 </footer>
 
-<div class="copyright">© ООО «Атлант», 2023 Все права защищены. Предложение не является публичной офертой </div>
+<div class="copyright"><?php the_field('copyright', 'option'); ?></div>

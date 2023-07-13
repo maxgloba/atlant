@@ -1,61 +1,26 @@
 <section class="look">
-  <div class="look__box wow fadeInRight">
-    <h2>Как выглядят погреба <br> “Атлант” изнутри </h2>
-    <div class="look__slider-wrap">
-      <div class="look__slider">
-        <div>
-          <div class="look__item">
-            <img src="<?php echo IMG; ?>/slider/slide-00.png" />
-            <span>Широкие полки - входит по 2 ряда банок</span>
-          </div>
-        </div>
-        <div>
-          <div class="look__item">
-            <img src="<?php echo IMG; ?>/slider/slide-000.png" />
-            <span>Края со скруглениями - ваша безопасность</span>
-          </div>
-        </div>
-        <div>
-          <div class="look__item">
-            <img src="<?php echo IMG; ?>/slider/slide-01.png" />
-            <span>Широкие полки - входит по 2 ряда банок</span>
-          </div>
-        </div>
-        <div>
-          <div class="look__item">
-            <img src="<?php echo IMG; ?>/slider/slide-02.png" />
-            <span>Широкие полки - входит по 2 ряда банок</span>
-          </div>
-        </div>
-        <div>
-          <div class="look__item">
-            <img src="<?php echo IMG; ?>/slider/slide-03.png" />
-            <span>Широкие полки - входит по 2 ряда банок</span>
-          </div>
-        </div>
-        <div>
-          <div class="look__item">
-            <img src="<?php echo IMG; ?>/slider/slide-04.png" />
-            <span>Широкие полки - входит по 2 ряда банок</span>
-          </div>
-        </div>
-        <div>
-          <div class="look__item">
-            <img src="<?php echo IMG; ?>/slider/slide-05.png" />
-            <span>Широкие полки - входит по 2 ряда банок</span>
-          </div>
-        </div>
-        <div>
-          <div class="look__item">
-            <img src="<?php echo IMG; ?>/slider/slide-06.png" />
-            <span>Широкие полки - входит по 2 ряда банок</span>
-          </div>
+  <img class="look__bg" src="<?php echo IMG; ?>/look-bg.png" width="100%" />
+  <div class="look__box-wrap">
+    <div class="look__box wow fadeInRight">
+      <h2><?php the_field('look-title'); ?></h2>
+      <?php if( have_rows('look-slider') ): ?>
+      <div class="look__slider-wrap">
+        <div class="look__slider">
+          <?php while( have_rows('look-slider') ) : the_row(); ?>
+            <div>
+              <div class="look__item">
+                <img src="<?php the_sub_field('icon'); ?>" />
+                <span><?php the_sub_field('text'); ?></span>
+              </div>
+            </div>
+          <?php endwhile; ?>
         </div>
       </div>
-    </div>
-    <div class="look__descriptor">
-      <span>Наш менеджер позвонит вам по видеосвязи и сделает обзор погреба</span>
-      <button class="btn">Видео-обзор</button>
+      <?php endif; ?>
+      <div class="look__descriptor">
+        <span>Наш менеджер позвонит вам по видеосвязи и сделает обзор погреба</span>
+        <button class="btn">Видео-обзор</button>
+      </div>
     </div>
   </div>
 </section>

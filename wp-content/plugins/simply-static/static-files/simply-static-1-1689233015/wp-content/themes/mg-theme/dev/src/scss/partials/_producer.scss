@@ -1,0 +1,53 @@
+.producer{
+  background: var(--green);
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 385px;
+  .container{
+    position: relative;
+    z-index: 2;
+  }
+  h2{
+    color: var(--greenish);
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 43px;
+  }
+  &__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    @media(min-width:1400px){
+      justify-content: space-between;
+      padding-left: 128px;
+      padding-right: 128px;
+    }
+  }
+  &__item{
+    font-size: 20px;
+    color: var(--white);
+    text-align: center;
+    padding: 16px 30px;
+    @media(min-width:1200px){
+      padding: 0 16px;
+    }
+    span{
+      font-weight: 900;
+      font-size: 50px;
+      display: block;
+    }
+  }
+  &__descriptor{
+    margin-top: 50px;
+    max-width: 487px;
+    background: var(--white);
+    font-size: 14px;
+    padding: 17px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
